@@ -5,7 +5,7 @@ nav{
 }
 
 .banner{
-    background: linear-gradient(180deg, darkblue,70%,  purple), url("/images/starts.png");
+    background: linear-gradient(180deg, darkblue,70%,  purple);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
