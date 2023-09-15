@@ -1,0 +1,136 @@
+nav{
+    transition: 0.5s;
+    color: white;
+    font-size: 20px;
+}
+
+.banner{
+    background: linear-gradient(180deg, darkblue,70%,  purple), url("/images/starts.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.profile-photo{
+    width: 60%;
+}
+
+.banner-grid{
+    display: flex;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.banner-text{
+    height: 55%;
+}
+
+.about-me{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.projects{
+    background-image: url("/images/dots.png");
+}
+
+.projects #carouselCaption{
+    background-color: transparent;
+}
+
+.card{
+    width: 100%;
+}
+
+.carousel-inner{
+    width: 400px;
+}
+
+.carousel-item img{
+    transition: 1s;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    filter: brightness(30%);
+}
+
+.carousel-item img:hover{
+    filter: brightness(100%);
+    transform: scale(110%);
+}
+
+.caption{
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.landing{
+    width: 90%;
+}
+
+.iti{
+    width: 100%;
+}
+
+.iti__arrow{
+    border: none;
+}
+
+.code img{
+    height: 35px;
+    margin: 3px;
+}
+
+@media (max-width: 768px) {
+    .banner-grid{
+        height: auto;
+    }
+    .banner-text{
+        height: auto;
+    }
+    .about-me{
+        margin-bottom: 0%;
+    }
+    .landing{
+        width: 100%;
+    }
+}
+
+/* De aqui hacia abajo siempre quedará ultimo */
+
+.up{
+    background-color: transparent;
+    color: transparent;
+    width: 120px;
+    height: 80px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 20px;
+    font-size: 45px;
+    position: fixed;
+    right: -40px;
+    bottom: 40px;
+    transition: .2s;
+}
+
+.up:hover{
+    right: -30px;
+}
+
+@media (max-width: 768px) {
+    .up{
+        width: 80px;
+        height: 60px;
+        font-size: 30px;
+        right: -20px;
+    }
+
+    .up:hover{
+        right: -20px;
+    }
+}
