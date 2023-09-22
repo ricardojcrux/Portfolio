@@ -31,7 +31,7 @@ nav{
     margin-bottom: 5%;
 }
 
-.about-me img{
+.about-img{
     height: 120px;
 }
 
@@ -47,7 +47,7 @@ nav{
     width: 100%;
 }
 
-.card img{
+.card-img{
     height: 180px;
     object-fit: cover;
     object-position: center;
