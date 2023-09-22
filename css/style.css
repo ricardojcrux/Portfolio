@@ -31,6 +31,10 @@ nav{
     margin-bottom: 5%;
 }
 
+.about-me img{
+    height: 120px;
+}
+
 .projects{
     background-image: url("/images/dots.png");
 }
@@ -43,6 +47,12 @@ nav{
     width: 100%;
 }
 
+.card img{
+    height: 180px;
+    object-fit: cover;
+    object-position: center;
+}
+
 .carousel-inner{
     width: 400px;
 }
@@ -52,12 +62,12 @@ nav{
     height: 400px;
     object-fit: cover;
     object-position: center;
-    filter: brightness(30%);
+    filter: brightness(60%);
 }
 
 .carousel-item img:hover{
     filter: brightness(100%);
-    transform: scale(110%);
+    transform: scale(105%);
 }
 
 .caption{

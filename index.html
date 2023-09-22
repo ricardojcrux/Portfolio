@@ -23,15 +23,15 @@
 
 <body>
 
-    <nav id="navbar" class="navbar fixed-top navbar-expand-md navbar-dark p-3">
+    <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-dark p-3">
         <div class="container-fluid">
             <a href="#" class="navbar-brand">Home</a>
-            <button id="navbar-toggler" class="order-md-1 order-2 navbar-toggler" type="button"
+            <button id="navbar-toggler" class="order-lg-1 order-2 navbar-toggler" type="button"
                 data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="order-md-2 order-3 collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="order-lg-2 order-3 collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="#aboutMe">About Me</a>
@@ -43,11 +43,11 @@
                         <a class="nav-link" href="#mainProjects">Main Projects</a>
                     </li>
                     <li class="nav-item align-items-start">
-                        <a class="nav-link" href="#landing">Contact Me!</a>
+                        <a class="nav-link" href="#contactMe">Contact Me!</a>
                     </li>
                 </ul>
             </div>
-            <div class="order-md-3 order-1">
+            <div class="order-lg-3 order-1">
                 <ul class="navbar-nav fs-3 d-flex flex-row">
                     <li class="nav-item mx-3">
                         <a class="nav-link bi-github" target="_blank" href="https://www.github.com/ricardojcrux/"></a>
@@ -70,8 +70,7 @@
                 <div class="col-md-5 my-auto">
                     <img class="profile-photo img-fluid rounded-circle" src="images/profile_photo.jpg">
                 </div>
-                <div
-                    class="col-md-7 mb-3 text-white text-md-start text-center d-flex flex-column justify-content-around">
+                <div class="col-md-7 mb-3 text-white text-md-start text-center d-flex flex-column justify-content-around">
                     <div class="banner-text d-flex flex-column justify-content-between">
                         <h2>Hi, my name is
                             <span class="d-block fs-1 text-warning">Ricardo Zapata Cruz</span>
@@ -101,68 +100,66 @@
         </svg>
     </div>
 
-    <div id="aboutMe" class="about-me container px-3" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom" data-aos-once="true">
+    <div id="aboutMe" class="about-me container px-3">
         <div class="row text-center">
-            <div class="col-md-4">
-                <h2>About me</h2>
-                <p class="text-center">I'm a student of software development at University of Valle, located in Cali,
-                    Colombia</p>
+            <h2 class="mb-3" data-aos="fade-down" data-aos-duration="1500" data-aos-once="true">
+                About Me <span class="lead fst-italic d-block">(Things about me as a person)</span>
+            </h2>
+            <div class="col-md-4" data-aos="fade-up" data-aos-once="true" data-aos-duration="1500" data-aos-delay="500">
+                <img class="my-3 rounded" src="images/univalle.png">
+                <p class="text-center">Currently studing software development at University of Valle, located in Cali, Colombia</p>
             </div>
-            <div class="col-md-4 col-sm-6 mx-auto">
-                <h2>About me</h2>
-                <p class="text-center">I'm a student of software development at University of Valle, located in Cali,
-                    Colombia</p>
+            <div class="col-md-4 col-sm-6 mx-auto" data-aos="fade-up" data-aos-once="true" data-aos-duration="1500" data-aos-delay="1000">
+                <img class="my-3 rounded" src="images/maths.jpg">
+                <p class="text-center">Passionate about software development, mathematics and data analysis</p>
             </div>
-            <div class="col-md-4 col-sm-6 mx-auto">
-                <h2>About me</h2>
-                <p class="text-center">I'm a student of software development at University of Valle, located in Cali,
-                    Colombia</p>
+            <div class="col-md-4 col-sm-6 mx-auto" data-aos="fade-up" data-aos-once="true" data-aos-duration="1500" data-aos-delay="1500">
+                <img class="my-3 rounded" src="images/idea.jpg">
+                <p class="text-center">Creative and searching daily ideas to create something new</p>
             </div>
         </div>
     </div>
 
-    <div id="knowledges" class="knowledges container p-5">
-        <h2 class="text-center" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
+    <hr class="w-75 mx-auto">
+
+    <div id="knowledges" class="knowledges container p-5 pt-3">
+        <h2 class="text-center" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true" data-aos-anchor-placement="top-center">
             Knowledges <span class="lead fst-italic d-block">(Things I know how to do)</span>
         </h2>
         <div class="row d-flex align-items-end">
-            <div class="col-lg-3 col-sm-6 mt-3" data-aos="flip-down" data-aos-duration="1000" data-aos-once="true">
+            <div class="col-lg-3 col-sm-6 mt-3" data-aos="flip-down" data-aos-duration="1000" data-aos-once="true" data-aos-anchor-placement="top-center">
                 <div class="card">
-                    <img src="https://i.blogs.es/1d8a5b/python1/1366_2000.jpg" class="card-img-top">
+                    <img src="images/python.jpg" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title text-center">Python</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <p class="card-text">Basic apps using Numpy and Matplotlib for Data Science and Django and FastAPI for Web Development</p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6 mt-3" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="250" data-aos-once="true">
+            <div class="col-lg-3 col-sm-6 mt-3" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="250" data-aos-once="true" data-aos-anchor-placement="top-center">
                 <div class="card">
-                    <img src="https://i.blogs.es/1d8a5b/python1/1366_2000.jpg" class="card-img-top">
+                    <img src="images/web.jpg" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title text-center">Web Development</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <p class="card-text">Creating webpages to people and business using programming languages like Javascript and CSS with Bootstrap </p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6 mt-3" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="500" data-aos-once="true">
+            <div class="col-lg-3 col-sm-6 mt-3" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="500" data-aos-once="true" data-aos-anchor-placement="top-center">
                 <div class="card">
-                    <img src="https://i.blogs.es/1d8a5b/python1/1366_2000.jpg" class="card-img-top">
+                    <img src="images/backend.png" class="card-img-top">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Graphic Design</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <h5 class="card-title text-center">Backend and Database</h5>
+                        <p class="card-text">Connect backend or visual interface with fronted using API's and databases to synchronize all information</p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6 mt-3" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="750" data-aos-once="true">
+            <div class="col-lg-3 col-sm-6 mt-3" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="750" data-aos-once="true" data-aos-anchor-placement="top-center">
                 <div class="card">
-                    <img src="https://i.blogs.es/1d8a5b/python1/1366_2000.jpg" class="card-img-top">
+                    <img src="images/data.jpg" class="card-img-top">
                     <div class="card-body">
-                        <h5 class="card-title  text-center">Mathematics</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <h5 class="card-title  text-center">Data Analysis</h5>
+                        <p class="card-text">Using Numpy, Matplotlib and Pandas, I analyze data to create a model that resembles the behavior of them. </p>
                     </div>
                 </div>
             </div>
@@ -171,36 +168,39 @@
 
     <div id="mainProjects" class="projects container-fluid bg-danger text-white">
         <div class="container text-center pt-4 pb-5">
-            <h2>Main Projects <span class="lead fst-italic d-block">(Projects I done)</span></h2>
+            <h2 class="mb-md-4 mb-0" data-aos="fade-down" data-aos-once="true" data-aos-anchor-placement="center-center">Main Projects <span class="lead fst-italic d-block">(Projects I done)</span></h2>
             <div class="row mt-3">
                 <div class="col-lg-7 col-md-6" data-aos="zoom-in" data-aos-anchor-placement="center-bottom" data-aos-once="true">
                     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0"
-                                class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1"
-                                aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2"
-                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="4" aria-label="Slide 5"></button>
                         </div>
                         <div class="carousel-inner rounded border border-light border-5">
                             <div class="carousel-item active">
-                                <img src="images/memory-card-hidden.jpg" class="d-block w-100">
+                                <img src="images/mokepon.png" class="d-block w-100">
                             </div>
                             <div class="carousel-item">
-                                <img src="images/mokepon.jpg" class="d-block w-100">
+                                <img src="images/calculadora.png" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/matrix.png" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/projects.png" class="d-block w-100">
                             </div>
                             <div class="carousel-item">
                                 <img src="images/memory-card.jpg" class="d-block w-100">
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-                            data-bs-slide="prev">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-                            data-bs-slide="next">
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                         </button>
@@ -209,19 +209,27 @@
                 <div class="col-lg-5 col-md-6 mt-md-0 mt-3 d-flex flex-column justify-content-around">
                     <div id="carouselCaption" class="h-50 d-flex rounded pt-4 pb-2 px-3">
                         <div class="caption d-none rounded justify-content-center">
-                            <a class="btn btn-outline-light w-50">First slide label</a>
-                            <p class="mt-2">Some representative placeholder content for the first slide.</p>
+                            <a class="btn btn-outline-light w-50">Mokepon Platzi Proyect</a>
+                            <p class="mt-2 mx-3">Dynamic webpage created following the main idea designed by Platzi, using HTML, CSS and Javascript</p>
                         </div>
                         <div class="caption d-none rounded justify-content-center">
-                            <a class="btn btn-outline-light w-50">Second slide label</a>
-                            <p class="mt-2">Some representative placeholder content for the first slide.</p>
+                            <a class="btn btn-outline-light w-50">Python Calculator</a>
+                            <p class="mt-2 mx-3">Basic Calculator created using Python and Tkinter to design the visual interface</p>
                         </div>
                         <div class="caption d-none rounded justify-content-center">
-                            <a class="btn btn-outline-light w-50">Third slide label</a>
-                            <p class="mt-2">Some representative placeholder content for the first slide.</p>
+                            <a class="btn btn-outline-light w-50">Matrix Calculator</a>
+                            <p class="mt-2 mx-3">Used to get some matrix properties such as inverse matriz and determinant, using Numpy and Tkinter </p>
+                        </div>
+                        <div class="caption d-none rounded justify-content-center">
+                            <a class="btn btn-outline-light w-50">Python Projects</a>
+                            <p class="mt-2 mx-3">Series of python projects created through my evolution as a developer in that language</p>
+                        </div>
+                        <div class="caption d-none rounded justify-content-center">
+                            <a class="btn btn-outline-light w-50">Memory Game Card</a>
+                            <p class="mt-2 mx-3">Game created together with university classmates as a homework, using Python and GTK for visual interface and using OOP </p>
                         </div>
                     </div>
-                    <div class="bg-dark rounded pt-3 pb-4 px-4 mt-md-0 mt-3" data-aos="fade-up" data-aos-anchor-placement="center-center" data-aos-once="true">
+                    <div class="bg-dark rounded pt-3 pb-4 px-4 mt-md-0 mt-3" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-once="true">
                         <p class="text-white">All my projects are locked in my GitHub repository.</p>
                         <a class="btn btn-outline-light" target="_blank" href="https://www.github.com/ricardojcrux/">
                             <i class="bi-github"></i>
@@ -233,7 +241,7 @@
         </div>
     </div>
 
-    <div id="landing" class="container-fluid d-flex align-items-center mt-5">
+    <div id="contactMe" class="container-fluid d-flex align-items-center mt-5">
         <div class="container d-flex justify-content-center">
             <div class="landing row bg-light rounded border d-flex justify-content-center px-3">
                 <div class="col-md-6 py-3">
@@ -243,7 +251,7 @@
                     <p class="lend fst-italic text-center">Type your contact info and I'll get back to you soon!</p>
                 </div>
                 <div class="col-md-6 py-3">
-                    <form id="contactForm" class="needs-validation" novalidate>
+                    <form id="contactForm" method="dialog" class="needs-validation" novalidate>
                         <label class="form-label fs-3 fst-italic">Personal Information</label>
                         <div class="row mb-3">
                             <div class="col-lg-6">
@@ -258,19 +266,21 @@
                             <input type="email" class="form-control" id="email" placeholder="Email Address" required>
                         </div>
                         <div class="mb-3">
-                            <input type="tel" class="form-control" id="phone" placeholder="Phone Number" required>
+                            <input type="number" class="form-control" id="phone" placeholder="Phone Number" required>
                         </div>
                         <div class="mb-3">
                             <textarea class="form-control" id="textarea" rows="7" placeholder="Type here your request in detail" required></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <div class="d-md-block d-flex justify-content-center">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
                     </form>
                 </div>
             </div>
         </div>
     </div>
 
-    <div id="code" class="code container my-5 d-flex flex-column" data-aos="fade-down" data-aos-duration="1000" data-aos-once="true">
+    <div id="code" class="code container my-5 d-flex flex-column" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
         <div class="row px-md-0 px-4 my-auto">
             <div class="col-lg-8 col-md-10 border rounded py-4 mx-auto">
                 <h2 class="text-center">I coding in <span class="lead d-block">(coding languages I use)</span></h2>
@@ -314,12 +324,17 @@
         <i class="bi-arrow-up-square"></i>
     </a>
 
-    <!-- Scripts propios, de ITI y de AOS -->
+    <!-- Scripts propios -->
     <script src="js/script.js"></script>
-    <script src="js/validation.js"></script>
+    <script type="module" src="js/validation.js"></script>
+
+    <!-- Scripts externos -->
+    <script src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/js/intlTelInput.min.js"></script>
-    <script src="js/country_codes.js"></script>
+
+    <!-- Inicializadores de scripts -->
+    <script type="module" src="js/country_codes.js"></script>
     <script> AOS.init() </script>
 </body>
 
