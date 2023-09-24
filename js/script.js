@@ -41,6 +41,20 @@ let hideNavbar = function(){
     prevScrollpos = nowScrollpos
 }
 
+let toggleNavbarColor = function() {
+    let navbarHeight = navbar.offsetHeight
+    if(navbarHeight < 100){
+        nav.classList.add('bg-dark')
+        nav.classList.add('shadow')
+    } else{
+        if(window.scrollY < 100){
+            nav.classList.remove('bg-dark')
+            nav.classList.remove('shadow')
+        }        
+    }
+    
+}
+
 let textIn = function(i){
     carouselDiv.style.backgroundColor = "rgba(0, 0, 0, 0.2)"
     if(carouselID != i){
@@ -60,5 +74,6 @@ for(let i = 0; i < carousel.length; i++){
     carousel[i].addEventListener('mouseover', () => setTimeout(textIn, 500, i))
 }
 
+toggler.addEventListener('click', toggleNavbarColor)
 window.addEventListener('scroll', colorNav)
 window.addEventListener('scroll', hideNavbar)
