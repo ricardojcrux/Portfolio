@@ -54,7 +54,7 @@ nav{
 }
 
 .projects{
-    background-image: url("/images/dots.png");
+    background-image: url("../images/dots.png");
 }
 
 .projects #carouselCaption{
