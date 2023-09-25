@@ -1,6 +1,6 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js"
 import { getDatabase, ref, set } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-database.js"
-import { iti } from "country_codes.js"
+import { iti } from "/country_codes.js"
 
 const firebaseConfig = {
     apiKey: "AIzaSyD4zvn2Hs0MUd2TLc24t1U1FAmwYHAt60o",
