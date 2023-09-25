@@ -1,4 +1,3 @@
-let prevScrollpos = 0;
 let nav = document.querySelector('nav')
 let navbar = document.getElementById('navbar')
 let toggler = document.getElementById('navbar-toggler')
@@ -6,6 +5,8 @@ let upButton = document.getElementById('up')
 let carousel = document.getElementsByClassName('carousel-item')
 let caption = document.getElementsByClassName('caption')
 let carouselDiv = document.getElementById('carouselCaption')
+let languageFlag = document.getElementsByClassName('flag')
+let prevScrollpos = 0;
 let carouselID
 
 let colorNav = function(){
@@ -52,7 +53,6 @@ let toggleNavbarColor = function() {
             nav.classList.remove('shadow')
         }        
     }
-    
 }
 
 let textIn = function(i){
