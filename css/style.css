@@ -4,6 +4,24 @@ nav{
     font-size: 20px;
 }
 
+.flag{
+    width: 10vh;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.flag a{
+    position: absolute;
+    transition: .5s;
+}
+
+.flag img{width: 30px;}
+.flag a:nth-child(2){opacity: 0; transform: translateY(100%);}
+.flag:hover a:nth-child(2){opacity: 1; transform: translateY(0);}
+.flag:hover a:nth-child(1){opacity: 0; transform: translateY(-100%);}
+
 .banner{
     background: linear-gradient(180deg, darkblue,70%,  purple);
     background-position: center center;
