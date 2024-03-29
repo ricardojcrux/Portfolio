@@ -32,6 +32,7 @@ nav{
     font-size: 80px;
     color: #606674;
     text-shadow: -7px 7px 1px rgba(205,205,205,1);
+    word-wrap: break-word;
 }
 
 .main{
@@ -114,12 +115,16 @@ textarea{
 @media (max-width: 768px) {
     .banner-grid{
         height: auto;
+        max-height: max-content;
     }
     .banner-text{
         height: auto;
     }
     .landing{
         width: 100%;
+    }
+    .subtitle{
+        font-size: 50px;
     }
 }
 
