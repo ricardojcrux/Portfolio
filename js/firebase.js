@@ -18,10 +18,10 @@ const db = getDatabase(app);
 
 export let sendValues = function (e) {
     let fullName = document.getElementById("firstName").value + " " + document.getElementById("lastName").value
+    let currentDate = new Date()
 
     set(ref(db, '/data ' + fullName),{
-        firstName : document.getElementById("firstName").value,
-        lastName : document.getElementById("lastName").value,
+        time: currentDate.toLocaleString(),
         email : document.getElementById("email"),
         phone : iti.getNumber(),
         message : document.getElementById("textarea").value

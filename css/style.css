@@ -126,6 +126,9 @@ textarea{
     .subtitle{
         font-size: 50px;
     }
+    .main{
+        font-size: 50px;
+    }
 }
 
 /* De aqui hacia abajo siempre quedará ultimo */
